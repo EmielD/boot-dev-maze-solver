@@ -5,7 +5,6 @@ from maze import Maze
 from window import Window
 
 def start_new_maze():
-    print("huh?")
     win.clear_canvas()
     maze = Maze(450, 50, 20, 20, 50, 50, win, str(uuid.uuid4()))
     win.redraw()

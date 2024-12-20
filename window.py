@@ -39,7 +39,6 @@ class Window():
             if self.pending_callback:
                 self.__root.after_cancel(self.pending_callback)
         self.pending_callback = self.__root.after(delay, callback)
-        print(self.pending_callback)
 
     def clear_canvas(self):
         self.__canvas.delete("all")

@@ -34,7 +34,6 @@ class Maze():
         self._reset_cells_visited()
     
     def solve(self):
-        print("function: solve")
         self.win.running = True
         self._solve_r(0, 0)
 
